@@ -21,6 +21,7 @@ List of wanted deployment
   * htop
   * tmux
   * ranger
+  * nmtui
 * adblock (for less powerful portable device)
 * edid correction for wireless casting device
 * that sw that automatically find dependencies and compiles for you
