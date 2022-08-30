@@ -27,4 +27,5 @@ List of wanted deployment
 * edid correction for wireless casting device
 * spack
 * open hardware monitor
+* wall paper collection, but encrypted so that only me can quickly deploy them to avoid copyright issues
 
