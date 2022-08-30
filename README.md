@@ -22,6 +22,7 @@ List of wanted deployment
   * tmux
   * ranger
   * nmtui
+  * gparted
 * adblock (for less powerful portable device)
 * edid correction for wireless casting device
 * spack
