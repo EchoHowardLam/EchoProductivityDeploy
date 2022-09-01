@@ -21,8 +21,10 @@ List of wanted deployment
   * htop
   * tmux
   * ranger
-  * nmtui
+  * nmtui (Already inside default min ubuntu installation)
   * gparted
+  * default-jre
+  * default-jdk
 * adblock (for less powerful portable device)
 * edid correction for wireless casting device
 * spack
