@@ -23,6 +23,7 @@ List of wanted deployment
   * ranger
   * nmtui (Already inside default min ubuntu installation)
   * gparted
+  * curl
   * default-jre
   * default-jdk
 * adblock (for less powerful portable device)

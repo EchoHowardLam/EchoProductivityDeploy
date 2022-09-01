@@ -1,0 +1,3 @@
+[submodule "EchoVimDeploy"]
+	path = EchoVimDeploy
+	url = git@github.com:EchoHowardLam/EchoVimDeploy.git
