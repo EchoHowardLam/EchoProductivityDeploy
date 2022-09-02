@@ -31,4 +31,4 @@ List of wanted deployment
 * spack
 * open hardware monitor
 * wall paper collection, but encrypted so that only me can quickly deploy them to avoid copyright issues
-
+* git config
