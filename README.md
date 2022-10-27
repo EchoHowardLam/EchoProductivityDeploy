@@ -26,6 +26,7 @@ List of wanted deployment
   * curl
   * default-jre
   * default-jdk
+  * grub-customizer (need manual repo < 20.04, direct apt >= 20.04)
 * adblock (for less powerful portable device)
 * edid correction for wireless casting device
 * spack
