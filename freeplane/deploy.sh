@@ -8,12 +8,20 @@ cd ${SCRIPT_DIR}
 
 echo Make sure that you have already downloaded freeplane
 echo Put it in Downloads or software folder
-export FREEPLANE_PATH=$(find ~/Downloads -name 'freeplane.sh' | head -n 1)
-if [ -z "${FREEPLANE_PATH}" ] ; then
-	FREEPLANE_PATH=$(find ~/software -name 'freeplane.sh' | head -n 1)
+export APP_PATH=$(find ~/Downloads -name 'freeplane.sh' | head -n 1)
+if [ -z "${APP_PATH}" ] ; then
+	APP_PATH=$(find ~/software -name 'freeplane.sh' | head -n 1)
 fi
+if [ -z "${APP_PATH}" ] ; then
+	echo Error: You have not yet downloaded the application and put it in Downloads or software folder
+	exit 1
+fi
+
+export APP_NAME=Freeplane
 export ICON_PATH=$(realpath ./mind-map.png)
-envsubst <freeplane.desktop >~/.local/share/applications/freeplane.desktop
+
+# Create desktop file
+envsubst <../template/ubuntu_desktop_launcher.desktop >~/.local/share/applications/freeplane.desktop
 
 echo Desktop file installed
 echo Now open Activity by Super key\(Windows key\) and search freeplane,

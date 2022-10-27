@@ -3,7 +3,7 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=$FREEPLANE_PATH
-Name=Freeplane
+Exec=$APP_PATH
+Name=$APP_NAME
 Icon=$ICON_PATH
 
