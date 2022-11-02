@@ -27,6 +27,9 @@ List of wanted deployment
   * default-jre
   * default-jdk
   * grub-customizer
+  * openssh-server
+* web dev options
+  * nvm (version manager of nodejs, strongly recommended over directly installing nodejs)
 * adblock (for less powerful portable device)
 * edid correction for wireless casting device
 * spack
