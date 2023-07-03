@@ -16,7 +16,7 @@ List of wanted deployment
 * vscode
 * obs studio
 * package manager install
-  * git
+  * git & git-lfs
   * vim
   * htop
   * nvtop (snap)
