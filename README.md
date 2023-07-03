@@ -19,6 +19,7 @@ List of wanted deployment
   * git
   * vim
   * htop
+  * nvtop (snap)
   * tmux
   * ranger
   * nmtui (Already inside default min ubuntu installation)
