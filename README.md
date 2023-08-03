@@ -30,6 +30,7 @@ List of wanted deployment
   * grub-customizer (need manual repo < 20.04, direct apt >= 20.04)
   * grub-customizer
   * openssh-server
+  * avahi-daemon (needed for .local, ubuntu live server sometimes it may not come with this)
 * web dev options
   * nvm (version manager of nodejs, strongly recommended over directly installing nodejs)
 * adblock (for less powerful portable device)
